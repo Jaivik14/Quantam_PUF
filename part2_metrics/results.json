@@ -1,0 +1,39 @@
+{
+  "uniformity_mean_%": 50.09,
+  "uniformity_std_%": 1.66,
+  "bit_aliasing_mean_%": 50.09,
+  "bit_aliasing_outside_40_60_%": 3.21,
+  "uniqueness_mean_%": 50.02,
+  "uniqueness_std_%": 5.48,
+  "degrees_of_freedom_(entropy_estimate_bits)": 83.2,
+  "BER_nominal_%": 3.61,
+  "BER_vs_temperature_%": {
+    "-20": 6.46,
+    "0": 4.7,
+    "55": 4.97,
+    "85": 7.32,
+    "25": 3.61
+  },
+  "BER_vs_age_years_%": {
+    "2": 3.92,
+    "5": 5.23,
+    "10": 8.12,
+    "0": 3.61
+  },
+  "key_failure_rate_%": {
+    "nominal_25C": 0.92,
+    "-20C": 7.17,
+    "0C": 2.33,
+    "55C": 2.73,
+    "85C": 12.1,
+    "2yr": 1.03,
+    "5yr": 2.9,
+    "10yr": 15.8
+  },
+  "theory_key_failure_at_nominal_BER_%": 0.69,
+  "NIST_pass_proportion_%": {
+    "monobit": 100.0,
+    "runs": 100.0,
+    "block_freq": 100.0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "A_xor1_accuracy_vs_training_bits": {
+    "896": {
+      "structured-LR": 0.93,
+      "random-forest": 0.753,
+      "MLP": 0.888
+    },
+    "4480": {
+      "structured-LR": 0.966,
+      "random-forest": 0.871,
+      "MLP": 0.94
+    },
+    "17920": {
+      "structured-LR": 0.977,
+      "random-forest": 0.941,
+      "MLP": 0.964
+    },
+    "64512": {
+      "structured-LR": 0.98,
+      "random-forest": 0.965,
+      "MLP": 0.972
+    }
+  },
+  "B_xork_product_attack_accuracy": {
+    "XOR-2, 4480 bits": 0.938,
+    "XOR-2, 17920 bits": 0.958,
+    "XOR-3, 4480 bits": 0.918,
+    "XOR-3, 17920 bits": 0.935
+  },
+  "C_forgery_success_rate_raw_bits_leaked(40 trials)": {
+    "genuine device (reference)": 1.0,
+    "896 leaked bits": 1.0,
+    "1792": 1.0,
+    "4480": 1.0,
+    "17920": 1.0
+  },
+  "D_forgery_from_helper_data_only(100 trials)": {
+    "3 helper sets": 0.99,
+    "10": 1.0,
+    "30": 1.0
+  },
+  "E_accuracy_8960_leaked_bits_vs_qubits": {
+    "16": 0.977,
+    "32": 0.976,
+    "64": 0.966,
+    "128": 0.955
+  }
+}
